@@ -1,14 +1,14 @@
 <template>
   <div>
+    <span :id="prevHandler">
+      <slot name="prev" />
+    </span>
     <div :id="elementHandle" :class="['owl-carousel', 'owl-theme']">
-      <span :id="prevHandler">
-        <slot name="prev" />
-      </span>
       <slot />
-      <span v-show="showNext" :id="nextHandler">
-        <slot name="next" />
-      </span>
     </div>
+    <span v-show="showNext" :id="nextHandler">
+      <slot name="next" />
+    </span>
   </div>
 </template>
 <script>
