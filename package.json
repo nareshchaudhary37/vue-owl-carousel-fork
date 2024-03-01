@@ -3,10 +3,10 @@
   "description": "VueJS wrapper for Owl Carousel",
   "version": "2.0.3",
   "author": {
-    "name": "Leo Chien <s950329@gmail.com>"
+    "name": "NP Chaudhary <nareshchaudhary37@gmail.com>"
   },
   "bugs": {
-    "url": "https://github.com/s950329/vue-owl-carousel/issues"
+    "url": "https://github.com/nareshchaudhary37/vue-owl-carousel-fork/issues"
   },
   "keywords": [
     "vuejs",
